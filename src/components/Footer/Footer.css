@@ -1,0 +1,41 @@
+.footer {
+  background: var(--primary);
+  padding: 2%;
+  margin-top: 15px;
+  position: relative;
+}
+.text-center {
+  text-align: center;
+}
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.text-center h4 {
+  color: var(--dark);
+}
+.footer span {
+  padding: 0.3em 0.7em;
+  color: var(--dark);
+  transition: all 0.5s ease;
+}
+.footer span i {
+  transition: all 0.5s ease;
+}
+.footer span i:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: aqua;
+}
+.footer p {
+  color: var(--dark);
+  font-size: 20px;
+}
+.footer .top a {
+  position: absolute;
+  right: 2%;
+  top: 69%;
+  color: var(--dark);
+  font-size: 20px;
+}
